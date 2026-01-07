@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "一个AI友好的Python后端框架，使开发者能够通过自然语言编码来构建应用程序"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi[all]>=0.128.0",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+]

@@ -20,4 +20,23 @@
 - [Alembic : 数据库迁移工具](https://alembic.sqlalchemy.org/en/latest/)
 - [Loguru : 日志库](https://loguru.readthedocs.io/en/stable/)
 
+## 使用
+
+- 下载代码
+
+```bash
+git clone https://github.com/xuxiaocong/cong-ai-friendly-py.git
+
+cd cong-ai-friendly-py
+```
+
+- 安装依赖
+
+```bash
+# 使用uv安装
+uv sync
+
+# 使用pip安装
+pip install -r requirements.txt
+```
 
