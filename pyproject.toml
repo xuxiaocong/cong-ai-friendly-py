@@ -5,7 +5,9 @@ description = "一个AI友好的Python后端框架，使开发者能够通过自
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.17.2",
     "fastapi[all]>=0.128.0",
     "httpx>=0.28.1",
     "loguru>=0.7.3",
+    "sqlmodel>=0.0.31",
 ]

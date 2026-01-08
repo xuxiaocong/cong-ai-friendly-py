@@ -40,3 +40,12 @@ uv sync
 pip install -r requirements.txt
 ```
 
+- 启动代码
+
+```sh
+# 复制环境变量配置文件
+cp docker/.env.example .env
+
+# 启动服务
+uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+```
